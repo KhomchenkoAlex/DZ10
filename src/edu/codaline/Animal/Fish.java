@@ -5,12 +5,12 @@ package edu.codaline.Animal;
  */
 public class Fish extends Animal {
 
-    Fish(){
+    public Fish(){
         this.health = 35;
     }
 
-    int swim() {
-        if (health <= MIN_HEALTH + 10) {
+    public int swim() {
+        if (health <= MIN_HEALTH + 15) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {
@@ -21,8 +21,8 @@ public class Fish extends Animal {
         return this.health;
     }
 
-    int blowBubbles() {
-        if (health <= MIN_HEALTH +5) {
+    public int blowBubbles() {
+        if (health <= MIN_HEALTH +15) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {
@@ -31,4 +31,6 @@ public class Fish extends Animal {
         }
         return this.health;
     }
+
+
 }

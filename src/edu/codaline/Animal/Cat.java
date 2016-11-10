@@ -5,12 +5,12 @@ package edu.codaline.Animal;
  */
 public class Cat extends Animal {
 
-    Cat() {
+    public Cat() {
         this.health = 75;
     }
 
-    int run() {
-        if (health <= MIN_HEALTH + 15) {
+    public int run() {
+        if (health <= MIN_HEALTH + 25) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {
@@ -20,8 +20,8 @@ public class Cat extends Animal {
         return this.health;
     }
 
-    int jump() {
-        if (health <= MIN_HEALTH + 20) {
+    public int jump() {
+        if (health <= MIN_HEALTH + 25) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {

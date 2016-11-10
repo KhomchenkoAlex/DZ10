@@ -5,8 +5,8 @@ package edu.codaline.Animal;
  */
 public class Bird extends Animal {
 
-    int fly() {
-        if (health <= MIN_HEALTH + 10) {
+    public int fly() {
+        if (health <= MIN_HEALTH + 15) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {
@@ -16,8 +16,8 @@ public class Bird extends Animal {
         return this.health;
     }
 
-    int warble() {
-        if (health <= MIN_HEALTH + 5) {
+    public int warble() {
+        if (health <= MIN_HEALTH + 15) {
             System.out.println("Я умираю!!! В больничку меня....");
         }
         else {

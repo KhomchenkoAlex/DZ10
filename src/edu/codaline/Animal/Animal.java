@@ -3,14 +3,17 @@ package edu.codaline.Animal;
 /**
  * Created by alex on 08.11.16.
  */
-abstract public class Animal {
+ abstract public class Animal {
 
     static final int MAX_HEALTH = 100;
     static final int MIN_HEALTH = 0;
 
     int health = 50;
+    private String name = this.getClass().getSimpleName(); //.replace("edu.codaline.Animal.","");
 
-    int eat() {
+    public int getHealth() { return this.health; }
+
+    public int eat() {
         if (health >= MAX_HEALTH) {
             System.out.println("Я не могу больше есть!!!");
         }
@@ -21,7 +24,7 @@ abstract public class Animal {
         return health;
     }
 
-    int sleep(){
+    public int sleep(){
         if (health >= MAX_HEALTH) {
             System.out.println("Я не могу больше спать!!!");
         }
@@ -32,12 +35,8 @@ abstract public class Animal {
         return health;
     }
 
-    int ToDoNothing() {
-        if (health <= MIN_HEALTH + 5) {
-            System.out.println("Я умираю!!! В больничку меня....");
-        }
-        else
-            health -=5;
-        return health;
+    public String toString(){
+        String info = "Имя: " + name + " , здоровье: " + health;
+        return info;
     }
 }
