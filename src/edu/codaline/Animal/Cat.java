@@ -11,7 +11,8 @@ public class Cat extends Animal {
 
     public int run() {
         if (health <= MIN_HEALTH + 25) {
-            System.out.println("Я умираю!!! В больничку меня....");
+            System.out.println("Я очень устал!!! В больничку меня....");
+            this.health -= 15;
         }
         else {
             System.out.println("Туда-сюда...");
@@ -22,7 +23,8 @@ public class Cat extends Animal {
 
     public int jump() {
         if (health <= MIN_HEALTH + 25) {
-            System.out.println("Я умираю!!! В больничку меня....");
+            System.out.println("Я очень устал!!! В больничку меня....");
+            this.health -= 20;
         }
         else {
             System.out.println("Со стула на диван - с дивана на шкаф...");

@@ -8,13 +8,13 @@ public class Main {
 
         switch (s){
             case "Cat":
-                menu.playCat();
+                menu.playWithCat();
                 break;
             case "Bird":
-                menu.playBird();
+                menu.playWithBird();
                 break;
             case "Fish":
-                menu.playFish();
+                menu.playWithFish();
                 break;
         }
     }

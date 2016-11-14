@@ -35,7 +35,7 @@ public class Menu {
         }
     }
 
-     void playFish() {
+     void playWithFish() {
          Scanner in = new Scanner(System.in);
          Fish fish = new Fish();
 
@@ -67,9 +67,10 @@ public class Menu {
                     break;
             }
         }
+         System.out.println("Game over! Питомец заболел и его забрали в больницу(...");
     }
 
-    void playBird() {
+    void playWithBird() {
         Scanner in = new Scanner(System.in);
         Bird bird = new Bird();
 
@@ -100,9 +101,10 @@ public class Menu {
                     break;
             }
         }
+        System.out.println("Game over! Питомец заболел и его забрали в больницу(...");
     }
 
-    void playCat() {
+    void playWithCat() {
         Scanner in = new Scanner(System.in);
         Cat cat = new Cat();
 
@@ -133,6 +135,7 @@ public class Menu {
                     break;
             }
         }
+        System.out.println("Game over! Питомец заболел и его забрали в больницу(...");
     }
 }
 

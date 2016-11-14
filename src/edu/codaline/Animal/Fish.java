@@ -11,7 +11,8 @@ public class Fish extends Animal {
 
     public int swim() {
         if (health <= MIN_HEALTH + 15) {
-            System.out.println("Я умираю!!! В больничку меня....");
+            System.out.println("Я очень устала!!! В больничку меня....");
+            this.health -= 10;
         }
         else {
             System.out.println("Туда-сюда...");
@@ -23,7 +24,8 @@ public class Fish extends Animal {
 
     public int blowBubbles() {
         if (health <= MIN_HEALTH +15) {
-            System.out.println("Я умираю!!! В больничку меня....");
+            System.out.println("Я очень устала!!! В больничку меня....");
+            this.health -= 5;
         }
         else {
             System.out.println("Буль-буль...");
