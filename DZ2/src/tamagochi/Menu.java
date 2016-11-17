@@ -1,7 +1,7 @@
-package edu.codaline;
+package tamagochi;
 
 import java.util.Scanner;
-import edu.codaline.Animal.*;
+import tamagochi.Animal.*;
 
 /**
  * Created by alex on 09.11.16.

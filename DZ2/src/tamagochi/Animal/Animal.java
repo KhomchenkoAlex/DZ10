@@ -1,4 +1,4 @@
-package edu.codaline.Animal;
+package tamagochi.Animal;
 
 /**
  * Created by alex on 08.11.16.
@@ -9,7 +9,7 @@ package edu.codaline.Animal;
     static final int MIN_HEALTH = 0;
 
     int health = 50;
-    private String name = this.getClass().getSimpleName(); //.replace("edu.codaline.Animal.","");
+    private String name = this.getClass().getSimpleName(); //.replace("tamagochi.Animal.","");
 
     public int getHealth() { return this.health; }
 

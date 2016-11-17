@@ -1,6 +1,6 @@
-package edu.codaline;
+package tamagochi;
 
-public class Main {
+public class DZ2Main {
 
     public static void main(String[] args) {
         Menu menu = new Menu ();
