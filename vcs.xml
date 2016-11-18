@@ -30,8 +30,12 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="Khomchenko_Alex" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://Khomchenko_Alex@bitbucket.org/Khomchenko_Alex/homeworks.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Codaline" />
+    <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects/CodalineHomeWork" />
   </component>
 </application>
