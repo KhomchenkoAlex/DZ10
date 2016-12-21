@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[DZ3] - .../DZ3/src/new_tamagochi/Animal/Exceptions/InjureException.java'" />
-    <option name="defaultScopeName" value="File '[DZ3] - .../DZ3/src/new_tamagochi/Animal/Exceptions/InjureException.java'" />
-    <option name="SEARCH_SCOPE" value="File '[DZ3] - .../DZ3/src/new_tamagochi/Animal/Exceptions/InjureException.java'" />
+    <option name="customScope" value="File '[DZ9_JDBC] - .../src/JDBCTest.java'" />
+    <option name="defaultScopeName" value="File '[DZ9_JDBC] - .../src/JDBCTest.java'" />
+    <option name="SEARCH_SCOPE" value="File '[DZ9_JDBC] - .../src/JDBCTest.java'" />
   </component>
 </application>
