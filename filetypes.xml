@@ -1,8 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="InjureException.java" type="PLAIN_TEXT" />
-      <mapping ext="properties1" type="XML" />
-    </extensionMap>
-  </component>
-</application>
